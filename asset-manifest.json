@@ -1,14 +1,23 @@
 {
   "files": {
     "main.css": "/memory-card/static/css/main.d910db52.css",
-    "main.js": "/memory-card/static/js/main.55d3d014.js",
+    "main.js": "/memory-card/static/js/main.374aa9ae.js",
     "static/media/background.jpg": "/memory-card/static/media/background.205d19a15254e9191693.jpg",
+    "static/media/bolo.jpg": "/memory-card/static/media/bolo.f2817d63a541c2e350db.jpg",
+    "static/media/ash.webp": "/memory-card/static/media/ash.095c244048bc2cbcf685.webp",
+    "static/media/lord_commander.jpg": "/memory-card/static/media/lord_commander.15deb422787529ada49b.jpg",
+    "static/media/mooncake.webp": "/memory-card/static/media/mooncake.bddc44d576dfb0890ce3.webp",
+    "static/media/avocado.jpg": "/memory-card/static/media/avocado.9df085fe1fbe6c647c82.jpg",
+    "static/media/little_cato.webp": "/memory-card/static/media/little_cato.d1c8feb274a5484b570f.webp",
+    "static/media/biskit.webp": "/memory-card/static/media/biskit.74cada435f088ed28b9e.webp",
+    "static/media/hue.webp": "/memory-card/static/media/hue.95db42a2234372bdcac4.webp",
+    "static/media/gary.webp": "/memory-card/static/media/gary.128d98effcdf197d10c0.webp",
     "index.html": "/memory-card/index.html",
     "main.d910db52.css.map": "/memory-card/static/css/main.d910db52.css.map",
-    "main.55d3d014.js.map": "/memory-card/static/js/main.55d3d014.js.map"
+    "main.374aa9ae.js.map": "/memory-card/static/js/main.374aa9ae.js.map"
   },
   "entrypoints": [
     "static/css/main.d910db52.css",
-    "static/js/main.55d3d014.js"
+    "static/js/main.374aa9ae.js"
   ]
 }
