@@ -1,6 +1,6 @@
 function Card(props) {
   const { name, img, handleClick, id } = props;
-  const path = "/images/characters/";
+  const path = "../../public/images/characters/";
   const src = path + img;
   return (
     <img
