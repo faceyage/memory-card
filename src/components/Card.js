@@ -1,10 +1,9 @@
 function Card(props) {
   const { name, img, handleClick, id } = props;
-  const path = "../../public/images/characters/";
-  const src = path + img;
+
   return (
     <img
-      src={src}
+      src={img}
       alt={name + "Image"}
       className="card"
       onClick={() => {

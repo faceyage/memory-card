@@ -3,6 +3,17 @@ import ScoreBoard from "./ScoreBoard";
 import Cards from "./Cards";
 import uniqid from "uniqid";
 
+//import character images
+import avocado from "../images/characters/avocado.jpg";
+import ash from "../images/characters/ash.webp";
+import biskit from "../images/characters/biskit.webp";
+import bolo from "../images/characters/bolo.jpg";
+import gary from "../images/characters/gary.webp";
+import hue from "../images/characters/hue.webp";
+import little_cato from "../images/characters/little_cato.webp";
+import lord_commander from "../images/characters/lord_commander.jpg";
+import mooncake from "../images/characters/mooncake.webp";
+
 function Game(props) {
   const [bestScore, setBestScore] = useState(0);
   const [currentScore, setCurrentScore] = useState(0);
@@ -30,15 +41,15 @@ function Game(props) {
 
   const getHeroes = () => {
     const heroes = [];
-    heroes.push(createCard("Avocado", "avocado.jpg"));
-    heroes.push(createCard("Hue", "hue.webp"));
-    heroes.push(createCard("Mooncake", "mooncake.webp"));
-    heroes.push(createCard("ash", "ash.webp"));
-    heroes.push(createCard("gary", "gary.webp"));
-    heroes.push(createCard("biskit", "biskit.webp"));
-    heroes.push(createCard("lord_commander", "lord_commander.jpg"));
-    heroes.push(createCard("bolo", "bolo.jpg"));
-    heroes.push(createCard("little_cato", "little_cato.webp"));
+    heroes.push(createCard("Avocado", avocado));
+    heroes.push(createCard("Hue", hue));
+    heroes.push(createCard("Mooncake", mooncake));
+    heroes.push(createCard("ash", ash));
+    heroes.push(createCard("gary", gary));
+    heroes.push(createCard("biskit", biskit));
+    heroes.push(createCard("lord_commander", lord_commander));
+    heroes.push(createCard("bolo", bolo));
+    heroes.push(createCard("little_cato", little_cato));
     return heroes;
   };
 
